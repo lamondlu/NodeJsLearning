@@ -1,0 +1,21 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "a sample about how to use nodeJS to approach a todolist",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lamond Lu",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-cli": "^1.3.2",
+    "grunt-nodemon": "^0.4.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4"
+  }
+}
